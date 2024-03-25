@@ -132,7 +132,6 @@ def shortest_path(source, target):
 
     return my_shortest_path
 
-
 def is_same_neighbour(n1, n2):
     result = n1[0] == n2[0] and n1[1] == n2[1]
     return result
